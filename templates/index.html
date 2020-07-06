@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	{% for instructor_name in names %}
+		<p>{{ instructor_name }}</p>
+	{% endfor %}
+
+	{% if name == 'Kaffy' %}
+		<p>Hello {{ name }}!</p>
+	{% endif %}
+</body>
+</html>
